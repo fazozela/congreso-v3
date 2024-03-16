@@ -1,0 +1,12 @@
+.footer{
+  background-color: #2C75BF;
+  padding-block: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

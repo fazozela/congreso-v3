@@ -1,0 +1,13 @@
+.navbar{
+  background-color: #5BCDC1;
+}
+
+@media (min-width: 1200px){
+  .logo-img{
+    width: 500px;
+  }
+  .nav-link:hover{
+    background-color: #F6D348;
+    border-radius: 5px;
+  }
+}
