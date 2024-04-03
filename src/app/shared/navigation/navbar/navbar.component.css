@@ -1,13 +1,46 @@
 .navbar{
   background-color: #5BCDC1;
 }
+.nav-link{
+  font-size: 0.8rem;
+}
+.nav-link.active {
+  background-color: #F6D348; /* Change this to the desired background color */
+  color: black; /* Change this to the desired text color */
+}
+
+@media (min-width: 992px){
+  .navbar{
+    padding-top: 2rem;
+  }
+  .logo-img{
+    width: 280px;
+  }
+  .nav-link{
+    font-size: 1rem;
+  }
+  .nav-link:hover{
+    background-color: rgba(246, 211, 72, 0.4);
+    border-radius: 5px;
+  }
+  .nav-link.active {
+    background-color: #F6D348; /* Change this to the desired background color */
+    color: black; /* Change this to the desired text color */
+  }
+}
 
 @media (min-width: 1200px){
+  .navbar{
+    padding-top: 3.7rem;
+  }
   .logo-img{
     width: 500px;
   }
+  .nav-link{
+    font-size: 1.2rem;
+  }
   .nav-link:hover{
-    background-color: #F6D348;
+    background-color: rgba(246, 211, 72, 0.4);
     border-radius: 5px;
   }
 }

@@ -7,11 +7,14 @@
   justify-content: center;
 }
 .home-text-container-2{
-  background-color: #2C75BF;
   height: 50vh;
+  padding: 0;
 }
 .home-text-container-3{
   background-color: #FF6642;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
 }
 .home-text-container-1-content-1{
   font-weight: 900;
@@ -33,17 +36,22 @@
   text-decoration: none;
 }
 .home-text-container-3 > marquee{
-  font-weight: 600;
+  font-weight: 900;
   font-size: 1.2rem;
 }
 .home-container{
   margin-bottom: -1.5rem;
 }
+.home-text-container-2-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
 /*FOR NORMAL AND LARGER SCREENS*/
-@media (min-width: 1200px){
+@media (min-width: 992px){
   .home-container{
     margin-bottom: 7rem;
   }
