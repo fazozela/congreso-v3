@@ -1,6 +1,6 @@
 .accordion{
-  margin-top: 1rem;
-  margin-inline: 2rem;
+  margin-top: 3rem;
+  margin-inline: 1rem;
   --bs-accordion-btn-bg: black;
   --bs-accordion-btn-color: white;
   --bs-accordion-active-color: white;
@@ -11,7 +11,7 @@
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 .accordion-button > span{
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 .announcement-button{
   background-color: #FF6642;
@@ -32,11 +32,68 @@
   justify-content: center;
   margin-top: 2rem;
 }
+.accordion-item{
+  margin-bottom: 0.5rem;
+}
+.lateral-image {
+  position: absolute;
+  bottom: 0; /* Adjust as needed to position the image */
+  left: 0; /* Adjust as needed to position the image */
+  z-index: -1; /* To place the image behind the container fluid */
+  width: 180px;
+}
+
+@media (min-width: 992px){
+  .accordion{
+    margin-top: 5rem;
+    margin-inline: 10rem;
+  }
+  .accordion-button > span{
+    font-size: 1.5rem;
+  }
+  .announcement-button{
+    background-color: #FF6642;
+    color: white;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 14rem;
+    text-align: center;
+    border: none;
+  }
+  .lateral-image {
+    position: absolute;
+    bottom: 0; /* Adjust as needed to position the image */
+    left: 0; /* Adjust as needed to position the image */
+    z-index: -1; /* To place the image behind the container fluid */
+    width: 260px;
+  }
+}
 
 @media (min-width: 1200px){
   .accordion{
     margin-top: 5rem;
-    margin-inline: 5rem;
+    margin-inline: 20rem;
+  }
+  .accordion-button > span{
+    font-size: 1.5rem;
+  }
+  .announcement-button{
+    background-color: #FF6642;
+    color: white;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 14rem;
+    text-align: center;
+    border: none;
+  }
+  .lateral-image {
+    position: absolute;
+    bottom: 0; /* Adjust as needed to position the image */
+    left: 0; /* Adjust as needed to position the image */
+    z-index: -1; /* To place the image behind the container fluid */
+    width: 175px;
   }
 }
 

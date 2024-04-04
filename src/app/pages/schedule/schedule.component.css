@@ -1,0 +1,27 @@
+.lateral-image {
+  position: absolute;
+  bottom: 0; /* Adjust as needed to position the image */
+  left: 0; /* Adjust as needed to position the image */
+  z-index: -1; /* To place the image behind the container fluid */
+  width: 180px;
+}
+
+@media (min-width: 992px){
+  .lateral-image {
+    position: absolute;
+    bottom: 0; /* Adjust as needed to position the image */
+    left: 0; /* Adjust as needed to position the image */
+    z-index: -1; /* To place the image behind the container fluid */
+    width: 260px;
+  }
+}
+
+@media (min-width: 1200px){
+  .lateral-image {
+    position: absolute;
+    bottom: 0; /* Adjust as needed to position the image */
+    left: 0; /* Adjust as needed to position the image */
+    z-index: -1; /* To place the image behind the container fluid */
+    width: 175px;
+  }
+}

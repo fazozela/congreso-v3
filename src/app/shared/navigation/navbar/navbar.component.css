@@ -14,10 +14,10 @@
     padding-top: 2rem;
   }
   .logo-img{
-    width: 280px;
+    width: 200px;
   }
   .nav-link{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .nav-link:hover{
     background-color: rgba(246, 211, 72, 0.4);
