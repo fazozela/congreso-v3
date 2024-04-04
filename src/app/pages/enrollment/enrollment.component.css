@@ -89,6 +89,14 @@
   font-weight: 900;
   font-style: italic;
 }
+.earlybird-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.earlybird-img{
+  width: 7rem;
+}
 
 @media (min-width: 992px){
   .accordion-button > span{
@@ -118,8 +126,13 @@
     z-index: -1; /* To place the image behind the container fluid */
     width: 260px;
   }
-  .bank-info{
-
+  .earlybird-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .earlybird-img{
+    width: 8rem;
   }
 }
 
