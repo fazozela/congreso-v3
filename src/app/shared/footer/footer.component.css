@@ -4,9 +4,12 @@
   color: white;
   font-weight: 600;
 }
-
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.social-link{
+  text-decoration: none;
+  color: white;
 }

@@ -10,6 +10,15 @@ html {
   position: relative;
   min-height: 100%;
 }
+.custom-download-btn {
+  background-color: #5BCDC1;
+  border-color: #5BCDC1;
+  color: white;
+}
+.custom-download-btn:hover {
+  background-color: #4CAF9E;
+  border-color: #4CAF9E;
+}
 
 @media (min-width: 992px){
   body {
